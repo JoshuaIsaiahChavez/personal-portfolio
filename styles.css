@@ -1,19 +1,32 @@
 body {
     font-family: Arial, sans-serif;
     color: #243047;
-    background-color: #f3f6fb;
+    background-color: red;
     margin: 0;
+    padding: 24px;
 }
 
 main {
     max-width: 720px;
     margin: 40px auto;
-    padding: 24px;
-    background-color: white
 }
 
-h1,h2{
+h1,
+h2 {
     color: #173a72
+}
+
+.card {
+    margin-bottom: 24px;
+    padding: 24px;
+    background-color: white;
+    border: 1px solid #dce3ef;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgb(36 48 71 / 10%);
+}
+
+.card:last-child {
+    margin-bottom: 0;
 }
 
 img {
